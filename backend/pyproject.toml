@@ -1,0 +1,15 @@
+[project]
+name = "task-management-backend"
+version = "0.1.0"
+description = "Task Management Application Backend"
+requires-python = ">=3.11"
+dependencies = [
+    "Flask==3.1.0",
+    "Authlib==1.4.1",
+    "Flask-Cors==5.0.1",
+    "psycopg[binary]==3.2.6",
+    "google-api-python-client==2.164.0",
+    "google-auth==2.38.0",
+    "gunicorn==23.0.0",
+    "python-dotenv==1.0.1",
+]
