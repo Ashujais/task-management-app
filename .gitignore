@@ -1,0 +1,25 @@
+# Environment and credentials
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+*.tsbuildinfo
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
